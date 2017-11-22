@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<zrubbish.com.zhoujuanjuan.zrubbish.view.ZLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context="zrubbish.com.zhoujuanjuan.zrubbish.MainActivity">
+    <zrubbish.com.zhoujuanjuan.zrubbish.view.ZPaoMaView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <TextView
+   <!-- <zrubbish.com.zhoujuanjuan.zrubbish.view.ZButton
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Button1"/>
+    <zrubbish.com.zhoujuanjuan.zrubbish.view.ZButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="Button2"/>-->
 
-</android.support.constraint.ConstraintLayout>
+
+</zrubbish.com.zhoujuanjuan.zrubbish.view.ZLinearLayout>
