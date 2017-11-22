@@ -37,6 +37,7 @@ public class ZPaoMaView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
         if (mViewThread == null) {
             mViewThread = new PaoMaViewThread();
             mViewThread.start();

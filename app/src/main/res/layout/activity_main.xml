@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<zrubbish.com.zhoujuanjuan.zrubbish.view.ZLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="zrubbish.com.zhoujuanjuan.zrubbish.MainActivity">
-    <zrubbish.com.zhoujuanjuan.zrubbish.view.ZPaoMaView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-   <!-- <zrubbish.com.zhoujuanjuan.zrubbish.view.ZButton
-        android:id="@+id/button1"
+    tools:context="zrubbish.com.zhoujuanjuan.zrubbish.activity.MainActivity">
+    <Button
+        android:id="@+id/test_event"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button1"/>
-    <zrubbish.com.zhoujuanjuan.zrubbish.view.ZButton
-        android:id="@+id/button2"
+        android:text="事件分发" />
+    <Button
+        android:id="@+id/test_paoma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:text="Button2"/>-->
+        android:text="跑马灯效果"/>
+    <Button
+        android:id="@+id/test_rabbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="兔斯基动画"/>
 
 
-</zrubbish.com.zhoujuanjuan.zrubbish.view.ZLinearLayout>
+
+</LinearLayout>

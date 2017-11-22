@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zrubbish.com.zhoujuanjuan.zrubbish.view.ZLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="zrubbish.com.zhoujuanjuan.zrubbish.activity.MainActivity">
+
+     <zrubbish.com.zhoujuanjuan.zrubbish.view.ZButton
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Button1"/>
+     <zrubbish.com.zhoujuanjuan.zrubbish.view.ZButton
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="200dp"
+         android:text="Button2"/>
+
+
+</zrubbish.com.zhoujuanjuan.zrubbish.view.ZLinearLayout>
