@@ -35,7 +35,6 @@ public class RabbitAnimationActivity extends AppCompatActivity {
 //        });
 //        framelayout.addView(rabbitView);
 
-        ///////////////////////////////////
         mHandler = new Handler(){
             int index = 0;
             @Override
