@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.test_event).setOnClickListener(this);
         findViewById(R.id.test_paoma).setOnClickListener(this);
         findViewById(R.id.test_rabbit).setOnClickListener(this);
+        findViewById(R.id.test_suspension).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.test_rabbit:
                 Intent animationIntent = new Intent(this,RabbitAnimationActivity.class);
                 startActivity(animationIntent);
+                break;
+            case R.id.test_suspension :
+                Intent susIntent = new Intent(this,FloatingViewActivity.class);
+                startActivity(susIntent);
                 break;
 
         }

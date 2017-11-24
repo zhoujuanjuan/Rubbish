@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activity.TestEventActivity" />
         <activity android:name=".activity.PaomaActivity" />
-        <activity android:name=".activity.RabbitAnimationActivity"></activity>
+        <activity android:name=".activity.RabbitAnimationActivity" />
+        <activity android:name=".activity.FloatingViewActivity"></activity>
     </application>
 
 </manifest>
